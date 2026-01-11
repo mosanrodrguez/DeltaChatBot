@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: delta-bot-descargador-auto
+    env: python
+    region: oregon  # Puedes cambiarlo a frankfurt o singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "true"
