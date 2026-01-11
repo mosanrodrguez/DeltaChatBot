@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 # --- CONFIGURACIÓN DEL BOT (ÚNICO CAMBIO REQUERIDO) ---
 # REEMPLAZA ESTE EMAIL POR TU DIRECCIÓN REAL. El bot te enviará aquí el enlace.
-ADMIN_EMAIL = "TU_EMAIL_PERSONAL@example.com"  # <-- ¡CAMBIA ESTO!
+ADMIN_EMAIL = "mosanrodrguez@gmail.com"  # <-- ¡CAMBIA ESTO!
 BOT_NAME = "Bot Descargador Automático"
 BOT_SERVER = "https://nine.testrun.org/new"  # Servidor chatmail gratuito[citation:2]
 BOT_STATUS = "Envía un enlace directo de descarga"
