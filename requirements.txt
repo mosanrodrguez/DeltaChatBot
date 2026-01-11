@@ -1,2 +1,4 @@
+deltachat-rpc-client
 deltabot-cli
 requests
+aiohttp
